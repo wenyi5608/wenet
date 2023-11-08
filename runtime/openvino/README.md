@@ -56,5 +56,6 @@ units=units.txt  # Change it to your model units path
     --chunk_size 16 \
     --wav_path $wav_path \
     --openvino_dir $openvino_dir \
+    --openvino_device CPU \
     --unit_path $units 2>&1 | tee log.txt
 ```
